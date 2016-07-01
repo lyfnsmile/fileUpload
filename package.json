@@ -1,0 +1,30 @@
+{
+  "name": "lyfn",
+  "version": "1.0.0",
+  "description": "file/images upload",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyfnsmile/fileUpload.git"
+  },
+  "keywords": [
+    "file",
+    "images",
+    "upload"
+  ],
+  "author": "lyfnsmile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lyfnsmile/fileUpload/issues"
+  },
+  "homepage": "https://github.com/lyfnsmile/fileUpload#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "multer": "^1.1.0"
+  }
+}
